@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;700&family=Bilbo+Swash+Caps&display=swap");
+
+:root {
+  --wall: #12285f;
+  --paper: #ffffff;
+  --ink: #eaf0ff;
+  --muted: #a9b6d9;
+  --accent: #8fa2ff;
+  --box-blue: #12285f;
+  --box-ink: #0f1a3a;
+  --box-muted: #4a5578;
+  --font: "Familjen Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-script: "Bilbo Swash Caps", "Segoe Script", "Brush Script MT", cursive;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--wall);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+a { color: inherit; }
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+main { padding: 0; }
+
+.intro {
+  margin-top: 1.5rem;
+  padding: 9rem 1.5rem 7rem;
+  background: linear-gradient(160deg, #1f3f94, var(--wall));
+  background-size: cover;
+  background-position: center;
+}
+.intro__inner { max-width: 40rem; }
+.intro h1 {
+  margin: 0 0 1.5rem;
+  font-size: clamp(2.75rem, 8vw, 5.5rem);
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+.intro p { margin: 0; font-size: 1.25rem; color: var(--ink); }
+
+.wall { display: flex; flex-direction: column; gap: 0; }
+
+.piece {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 3rem 1.5rem;
+}
+.piece--blue { background: var(--box-blue); color: #ffffff; }
+.piece--white { background: var(--paper); color: var(--box-ink); }
+.piece--white .label__meta { color: var(--box-muted); }
+.piece--blue .label__meta { color: rgba(255, 255, 255, 0.8); }
+@media (min-width: 800px) {
+  .piece { grid-template-columns: 1.4fr 1fr; gap: 3rem; padding: 4rem 3rem; }
+  .piece--flip { grid-template-columns: 1fr 1.4fr; }
+  .piece--flip .frame { order: 2; }
+  .piece--flip .label { order: 1; }
+}
+
+.frame { margin: 0; }
+.frame img, .frame__placeholder { display: block; width: 100%; height: 100%; object-fit: cover; }
+.frame--landscape img, .frame--landscape .frame__placeholder { aspect-ratio: 3 / 2; }
+.frame--portrait { max-width: 30rem; }
+.frame--portrait img, .frame--portrait .frame__placeholder { aspect-ratio: 4 / 5; }
+.frame--square { max-width: 32rem; }
+.frame--square img, .frame--square .frame__placeholder { aspect-ratio: 1 / 1; }
+
+/* Text next to each artwork */
+/* Text next to each artwork */
+.label { max-width: 40rem; }
+.label h2 {
+  margin: 0 0 0.5rem;
+  font-family: var(--font);
+  font-size: 5rem;        /* was 2rem */
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.label p { margin: 0 0 1rem; } /* slightly more breathing room */
+.label p:last-child { margin-bottom: 0; }
+
+/* Small metadata line stays in the UI font */
+.label .label__meta {
+  font-size: 1.25rem;        /* was 0.95rem */
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* Only the description uses the script font, and it is not bold */
+.label__description {
+  font-family: var(--font-script);
+  font-weight: 400;
+  font-size: 2.5rem;           /* was 2rem */
+  line-height: 1.3;
+}
+
+/* The box stays put; only what is inside it fades in and floats up. */
+.reveal .frame,
+.reveal .label {
+  opacity: 0;
+  transform: translateY(2.5rem);
+  transition: opacity 1s ease, transform 1.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal--in .frame,
+.reveal--in .label { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal .frame,
+  .reveal .label { opacity: 1; transform: none; transition: none; }
+}

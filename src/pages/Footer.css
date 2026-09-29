@@ -1,0 +1,8 @@
+.footer {
+  padding: 0 1.5rem 0rem;
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.about { max-width: 36rem; padding: 4rem 0rem 0rem; }
+.about h2 { margin: 0 0 0rem; font-size: 1.5rem; }

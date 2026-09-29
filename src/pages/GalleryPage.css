@@ -1,0 +1,97 @@
+/* Uses the variables already defined in App.css */
+
+.gallery-intro {
+  margin-top: 1.5rem;
+  padding: 5rem 1.5rem 3rem;
+}
+.gallery-intro h1 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(2.75rem, 8vw, 5.5rem);
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+.gallery-intro p { margin: 0; font-size: 1.25rem; }
+
+.gallery-empty { padding: 3rem 1.5rem; font-size: 1.25rem; }
+
+/* Columns keep each picture at its natural proportions. */
+.gallery {
+  columns: 1;
+  column-gap: 0.75rem;
+  padding: 0.75rem;
+  background: var(--paper);
+}
+@media (min-width: 600px)  { .gallery { columns: 2; } }
+@media (min-width: 1000px) { .gallery { columns: 3; } }
+@media (min-width: 1500px) { .gallery { columns: 4; } }
+
+.gallery__item {
+  display: block;
+  width: 100%;
+  margin: 0 0 0.75rem;
+  padding: 0;
+  border: 0;
+  background: var(--box-blue);
+  cursor: pointer;
+  break-inside: avoid;
+  overflow: hidden;
+}
+.gallery__item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease;
+}
+.gallery__placeholder { display: block; width: 100%; aspect-ratio: 4 / 5; }
+.gallery__item:hover img { transform: scale(1.03); }
+.gallery__item:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+
+/* Full-page view: the same .piece block as the home page, filling the screen */
+.viewer {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  overflow-y: auto;
+  background: var(--box-blue);
+}
+.viewer .piece {
+  min-height: 100vh;
+  padding-top: 6rem;
+}
+
+/* Solid dark bar so the controls read on both the blue and the white pieces */
+.viewer__bar {
+  position: fixed;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 101;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background: var(--box-ink);
+  color: #ffffff;
+}
+.viewer__count { padding: 0 0.5rem; font-weight: 500; }
+.viewer__btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+  font: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+.viewer__btn:hover { background: #ffffff; color: var(--box-ink); }
+.viewer__btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+@media (max-width: 600px) {
+  .viewer__bar { left: 0.75rem; justify-content: space-between; }
+  .viewer__btn { padding: 0.5rem 0.75rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gallery__item img { transition: none; }
+  .gallery__item:hover img { transform: none; }
+}
