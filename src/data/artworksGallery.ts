@@ -29,7 +29,7 @@ const artworksGallery: Artwork[] = [
     shape: "square",
   },
     {
-    id: "gallery-one",
+    id: "gallery-two",
     title: "First Piece",
     year: 2025,
     medium: "Oil on canvas",

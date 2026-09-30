@@ -31,6 +31,8 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 main { padding: 0; }
 
 .intro {
+  box-sizing: border-box;   /* so the height includes the padding */
+  min-height: 28rem; 
   margin-top: 1.5rem;
   padding: 9rem 1.5rem 7rem;
   background: linear-gradient(160deg, #1f3f94, var(--wall));

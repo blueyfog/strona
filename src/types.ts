@@ -1,6 +1,7 @@
+export type Availability = "disponible" | "prive" | "sold";
 
-
-type Artwork = {
+export type Artwork = {
+  //id = nazwa kolekcji powiedzmy, tak bedzie najlatwiej
   id?: string;
   title: string;
   year?: number;
@@ -14,6 +15,6 @@ type Artwork = {
   placeholder: [string, string];
   /** Shape of the frame on the page. */
   shape: "landscape" | "portrait" | "square";
+  /** Availability of the piece. */
+  disponibilite?: Availability;
 };
-
-export type {Artwork};

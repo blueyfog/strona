@@ -4,6 +4,7 @@ import { artworksMain } from "../data/artworksMain";
 import "../App.css";
 
 import backIMG from "../assets/MainObrazy/20260817_160900111eedfg11.png";
+import IntroHero from "./IntroHero";
 
 
 /** Returns a ref and a boolean that flips to true once the element scrolls into view. */
@@ -90,21 +91,9 @@ export default function HomePage() {
   return (
     <>
       
-        <section
-          className="intro"
-          style={
-            artist.heroImage
-              ? {
-                  backgroundImage: `linear-gradient(rgba(10, 22, 51, 0.55), rgba(10, 22, 51, 0.75)), url(${artist.heroImage})`,
-                }
-              : undefined
-          }
-        >
-          <div className="intro__inner">
-            <h1 >{artist.tagline}</h1>
-            <p>{artist.intro}</p>
-          </div>
-        </section>
+        <IntroHero title={artist.tagline} image={artist.heroImage}>
+          <p>{artist.intro}</p>
+        </IntroHero>
 
         <section id="work" aria-label="Selected work" className="wall">
           {artworksMain.map((work, i) => (
