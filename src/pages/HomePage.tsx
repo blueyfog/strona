@@ -3,7 +3,7 @@ import type { Artwork } from "../types";
 import { artworksMain } from "../data/artworksMain";
 import "../App.css";
 
-import backIMG from "../assets/MainObrazy/IMG-20260617-WA0096.jpg";
+import backIMG from "../assets/MainObrazy/20260817_160900111eedfg11.png";
 
 
 /** Returns a ref and a boolean that flips to true once the element scrolls into view. */
