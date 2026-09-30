@@ -36,30 +36,36 @@ export default function CollectionSection({
         </span>
       </button>
 
-      {!collapsed && (
-        <div id={panelId} className="gallery">
-          {collection.works.map((work, i) => (
+      <div
+  id={panelId}
+  className={`collection__panel ${collapsed ? "" : "collection__panel--open"}`}
+>
+  <div className="collection__panel-inner">
+    <div className="gallery">
+      {collection.works.map((work, i) => (
             <button
-              key={`${collection.id}-${work.title}-${i}`}
-              type="button"
-              className="gallery__item"
-              onClick={() => onOpen(startIndex + i)}
-              aria-label={`View ${work.title}`}
+            key={`${collection.id}-${work.title}-${i}`}
+            type="button"
+            className="gallery__item"
+            onClick={() => onOpen(startIndex + i)}
+            aria-label={`View ${work.title}`}
+            tabIndex={collapsed ? -1 : 0}
             >
-              {work.src ? (
+            {work.src ? (
                 <img src={work.src} alt={work.alt ?? work.title} loading="lazy" />
-              ) : (
+            ) : (
                 <span
-                  className="gallery__placeholder"
-                  style={{
+                className="gallery__placeholder"
+                style={{
                     background: `linear-gradient(160deg, ${work.placeholder[0]}, ${work.placeholder[1]})`,
-                  }}
+                }}
                 />
-              )}
+            )}
             </button>
-          ))}
+        ))}
         </div>
-      )}
+    </div>
+    </div>
     </section>
   );
 }
