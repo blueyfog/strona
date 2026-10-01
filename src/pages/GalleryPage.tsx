@@ -3,7 +3,7 @@ import { artworksGallery } from "../data/artworksGallery";
 import ArtworkPiece from "./ArtworkPiece";
 import CollectionSection from "./CollectionSection";
 import GalleryFilters from "./GalleryFilters";
-import galleryIMG from "../assets/MainObrazy/20260817_1609001111okfjhif11.png"
+import galleryIMG from "../assets/MainObrazy/20260817_1609001111okfjhif11.webp"
 import {
   DEFAULT_FILTERS,
   filterArtworks,

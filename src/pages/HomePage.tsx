@@ -3,7 +3,7 @@ import type { Artwork } from "../types";
 import { artworksMain } from "../data/artworksMain";
 import "../App.css";
 
-import backIMG from "../assets/MainObrazy/20260817_160900111eedfg11.png";
+import backIMG from "../assets/MainObrazy/20260817_160900111eedfg11.webp";
 import IntroHero from "./IntroHero";
 
 
