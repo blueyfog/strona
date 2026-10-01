@@ -12,7 +12,7 @@ export default function Header({ name }: HeaderProps) {
         <Link className="masthead__name" to="/">{name}</Link>
         <nav aria-label="Main">
           <Link to="/gallery">Gallery</Link>
-          <a href="#about">About</a>
+          <Link to="/about">About</Link>
         </nav>
       </header>
     </>

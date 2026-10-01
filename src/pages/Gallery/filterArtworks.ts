@@ -1,4 +1,4 @@
-import type { Artwork, Availability } from "../types"; // adjust path
+import type { Artwork, Availability } from "../../types"; // adjust path
 
 export type FilterState = {
   query: string;

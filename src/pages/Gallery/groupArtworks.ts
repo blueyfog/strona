@@ -1,4 +1,4 @@
-import type { Artwork } from "../types"; // adjust path
+import type { Artwork } from "../../types"; // adjust path
 
 export const NO_COLLECTION = "__none__";
 

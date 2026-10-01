@@ -1,4 +1,4 @@
-import type { Availability } from "../types"; // adjust path
+import type { Availability } from "../../types"; // adjust path
 import {
   AVAILABILITY_LABELS,
   DEFAULT_FILTERS,

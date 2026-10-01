@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { artworksGallery } from "../data/artworksGallery";
-import ArtworkPiece from "./ArtworkPiece";
+import { artworksGallery } from "../../data/artworksGallery";
+import ArtworkPiece from "../HomePage/ArtworkPiece";
 import CollectionSection from "./CollectionSection";
 import GalleryFilters from "./GalleryFilters";
-import galleryIMG from "../assets/MainObrazy/20260817_1609001111okfjhif11.webp"
+import galleryIMG from "../../assets/MainObrazy/20260817_1609001111okfjhif11.webp"
 import {
   DEFAULT_FILTERS,
   filterArtworks,
@@ -12,10 +12,10 @@ import {
   type FilterState,
 } from "./filterArtworks";
 import { groupByCollection } from "./groupArtworks";
-import "../App.css";
+import "../../App.css";
 import "./GalleryPage.css";
-import type { Artwork } from "../types";
-import IntroHero from "./IntroHero";
+import type { Artwork } from "../../types";
+import IntroHero from "../IntroHero";
 
 const works = artworksGallery;
 const mediums = getMediums(works);

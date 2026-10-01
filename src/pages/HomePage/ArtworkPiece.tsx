@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import type { Artwork } from "../types";
-import "../App.css";
+import type { Artwork } from "../../types";
+import "../../App.css";
 
 /** Same fields as Artwork, but only id, title and shape are required. */
 export type PieceWork = Pick<Artwork, "id" | "title" | "shape"> &

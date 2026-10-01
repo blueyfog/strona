@@ -1,39 +1,13 @@
-import { useEffect, useRef, useState } from "react";
-import type { Artwork } from "../types";
-import { artworksMain } from "../data/artworksMain";
-import "../App.css";
+import type { Artwork } from "../../types";
+import { artworksMain } from "../../data/artworksMain";
+import "../../App.css";
+import { useReveal } from "../useReveal";
 
-import backIMG from "../assets/MainObrazy/20260817_160900111eedfg11.webp";
-import IntroHero from "./IntroHero";
+import backIMG from "../../assets/MainObrazy/20260817_160900111eedfg11.webp";
+import IntroHero from "../IntroHero";
 
 
-/** Returns a ref and a boolean that flips to true once the element scrolls into view. */
-function useReveal<T extends HTMLElement>() {
-  const ref = useRef<T | null>(null);
-  // If the browser has no IntersectionObserver, start out visible instead of waiting.
-  const [seen, setSeen] = useState(() => typeof IntersectionObserver === "undefined");
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el || seen) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) setSeen(true);
-      },
-      { threshold: 0.4, rootMargin: "0px 0px -25% 0px" }
-    );
-
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, [seen]);
-
-  return [ref, seen] as const;
-}
-
-/* ------------------------------------------------------------------ */
-/* 1. EDIT THIS: your name, intro, and artworks                        */
-/* ------------------------------------------------------------------ */
+// variable artysta, zmien co sie wyswietla na glownej
 
 const artist = {
   tagline: "Maria Hajduk",
