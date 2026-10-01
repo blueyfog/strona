@@ -31,15 +31,18 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 main { padding: 0; }
 
 .intro {
-  box-sizing: border-box;   /* so the height includes the padding */
-  min-height: 28rem; 
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  min-height: 28rem;
   margin-top: 1.5rem;
   padding: 9rem 1.5rem 7rem;
-  background: linear-gradient(160deg, #1f3f94, var(--wall));
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(160deg, #12285f, var(--wall));
 }
-.intro__inner { max-width: 40rem; }
+.intro__inner {
+  position: relative;
+  max-width: 40rem;
+}
 .intro h1 {
   margin: 0 0 1.5rem;
   font-size: clamp(2.75rem, 8vw, 5.5rem);
@@ -48,6 +51,42 @@ main { padding: 0; }
   letter-spacing: -0.03em;
 }
 .intro p { margin: 0; font-size: 1.25rem; color: var(--ink); }
+
+.intro__bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transform: translateY(3rem);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.intro--in .intro__bg {
+  opacity: 1;
+  transform: none;
+}
+
+.intro__title,
+.intro__text {
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.intro--in .intro__title {
+  opacity: 1;
+  transform: none;
+  transition-delay: 0.7s;
+}
+
+.intro--in .intro__text {
+  opacity: 1;
+  transform: none;
+  transition-delay: 1s;
+}
+
+
 
 .wall { display: flex; flex-direction: column; gap: 0; }
 
@@ -119,4 +158,13 @@ main { padding: 0; }
 @media (prefers-reduced-motion: reduce) {
   .reveal .frame,
   .reveal .label { opacity: 1; transform: none; transition: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .intro__bg,
+  .intro__title,
+  .intro__text {
+    transition: none;
+    transform: none;
+  }
 }

@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 
 type Props = {
   title: string;
@@ -10,20 +10,28 @@ type Props = {
 };
 
 export default function IntroHero({ title, image, className = "", children }: Props) {
+  const [shown, setShown] = useState(false);
+
+  // The hero is visible at page load, so start the sequence right after first render.
+  useEffect(() => {
+    const id = setTimeout(() => setShown(true), 50);
+    return () => clearTimeout(id);
+  }, []);
+
   return (
-    <section
-      className={`intro ${className}`.trim()}
-      style={
-        image
-          ? {
-              backgroundImage: `linear-gradient(rgba(10, 22, 51, 0.55), rgba(10, 22, 51, 0.75)), url(${image})`,
-            }
-          : undefined
-      }
-    >
+    <section className={`intro ${shown ? "intro--in" : ""} ${className}`.trim()}>
+      {image && (
+        <div
+          className="intro__bg"
+          style={{
+            backgroundImage: `linear-gradient(rgba(10, 22, 51, 0.55), rgba(10, 22, 51, 0.75)), url(${image})`,
+          }}
+        />
+      )}
+
       <div className="intro__inner">
-        <h1>{title}</h1>
-        {children}
+        <h1 className="intro__title">{title}</h1>
+        <div className="intro__text">{children}</div>
       </div>
     </section>
   );
