@@ -1,6 +1,6 @@
 import type { Artwork } from "../types";
 //import image1 from "../assets/Obrazy/";
-import image2 from "../assets/Obrazy/KUS06254.dng"
+//import image2 from "../assets/Obrazy/KUS06254.dng"
 //import image3 from "../assets/Obrazy/"
 
 
@@ -13,7 +13,7 @@ const artworksGallery: Artwork[] = [
     medium: "Oil on canvas",
     size: "90 × 60 cm",
     description: "jd",
-    src: image2,
+    //src: image2,
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "portrait",
   },
