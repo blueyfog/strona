@@ -1,7 +1,7 @@
 import type { Artwork } from "../types";
 import image1 from "../assets/Obrazy/KUS06258.jpg";
 import image2 from "../assets/Obrazy/KUS06319.jpg"
-//import image3 from "../assets/Obrazy/"
+import image3 from ""
 
 //id = w jakiej kolekcji sie znajduje obraz
 const artworksGallery: Artwork[] = [
@@ -35,6 +35,17 @@ const artworksGallery: Artwork[] = [
     size: "90 × 60 cm",
     description: "jd",
     //src: image3,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "gallery-one",
+    title: "ktorys obraz",
+    year: 2023,
+    medium: "Oil on canvas",
+    size: "100 × 60 cm",
+    description: "jp 100%",
+    src: image3,
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "landscape",
   },
