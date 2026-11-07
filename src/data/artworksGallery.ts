@@ -1,7 +1,7 @@
 import type { Artwork } from "../types";
 import image1 from "../assets/Obrazy/KUS06258.jpg";
 import image2 from "../assets/Obrazy/KUS06319.jpg"
-import image3 from ""
+import image3 from "../assets/Obrazy/KUS06442.jpg"
 
 //id = w jakiej kolekcji sie znajduje obraz
 const artworksGallery: Artwork[] = [
@@ -47,7 +47,7 @@ const artworksGallery: Artwork[] = [
     description: "jp 100%",
     src: image3,
     placeholder: ["#c9d6e8", "#4a6a94"],
-    shape: "landscape",
+    shape: "landscape", //nie pamietam jaki ale chyba to byl landscape 
   },
 ];
 
