@@ -1,5 +1,5 @@
 import type { Artwork } from "../types";
-//import image1 from "../assets/MainObrazy/20260817_160900.jpg";
+import image1 from "";
 //import image2 from "../assets/MainObrazy/20260924_172429.jpg";
 //import image3 from "../assets/MainObrazy/IMG-20260617-WA0112.jpg";
 //import image4 from "../assets/MainObrazy/20260924_172857.jpg";
@@ -16,15 +16,16 @@ const artworksMain: Artwork[] = [
     shape: "portrait",
   },
   {
-    id: "kitchen-table",
-    title: "Kitchen Table, Sunday",
+    id: "stol chy ",
+    title: "niedzielaa",
     year: 2024,
     medium: "Gouache on paper",
     size: "40 × 50 cm",
     description:
       "A study of leftover objects: a cup, a folded cloth, a bowl of lemons. " +
-      "I kept the palette to five colours to see how much warmth I could get from so little.",
-    
+      "I kept the palette to five colours to see how much warmth I could get from so little."+
+      "Keep me away from this ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
+    src: image1,
     placeholder: ["#f2d98a", "#c76a3a"],
     shape: "square",
   },
