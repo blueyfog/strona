@@ -20,9 +20,9 @@ const artworksGallery: Artwork[] = [
     id: "gallery-one",
     title: "nowy obraz",
     year: 2024,
-    medium: "Oil on canvas",
-    size: "90 × 60 cm",
-    description: "jd",
+    medium: "Oil",
+    size: "80 × 120 cm",
+    description: "super mega",
     src: image2,
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "portrait", //square / ladnscape / portrait -> portait
