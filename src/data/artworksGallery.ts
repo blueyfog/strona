@@ -3,8 +3,7 @@ import image1 from "../assets/Obrazy/KUS06258.jpg";
 //import image2 from "../assets/Obrazy/"
 //import image3 from "../assets/Obrazy/"
 
-
-// Every "id" must be different from the others.
+//id = w jakiej kolekcji sie znajduje obraz
 const artworksGallery: Artwork[] = [
   {
     id: "gallery-one",
