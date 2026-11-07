@@ -1,5 +1,5 @@
 import type { Artwork } from "../types";
-import image1 from "";
+import image1 from "../assets/Obrazy/KUS06577.jpg";
 //import image2 from "../assets/MainObrazy/20260924_172429.jpg";
 //import image3 from "../assets/MainObrazy/IMG-20260617-WA0112.jpg";
 //import image4 from "../assets/MainObrazy/20260924_172857.jpg";
@@ -27,7 +27,7 @@ const artworksMain: Artwork[] = [
       "Keep me away from this ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
     src: image1,
     placeholder: ["#f2d98a", "#c76a3a"],
-    shape: "square",
+    shape: "square", // to kwadrat wiec git
   },
   {
     id: "field-notes",
