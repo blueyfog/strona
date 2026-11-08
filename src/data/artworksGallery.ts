@@ -1,5 +1,5 @@
 import type { Artwork } from "../types";
-import image1 from "../assets/Obrazy/KUS06259.jpg";
+import image1 from "../assets/Obrazy/KUS06259.jpg"; 
 import image2 from "../assets/Obrazy/KUS06265.jpg";
 import image3 from "../assets/Obrazy/KUS06258.jpg";
 import image4 from "../assets/Obrazy/KUS06263.jpg";
@@ -27,7 +27,7 @@ const artworksGallery: Artwork[] = [
     description: "When I saw this photograph, I felt a strong impulse to paint it; it shows the sunrise in Monument Valley, Arizona. While working on it, after I’d painted the sky, the incredible colours of the place made me stop looking at the photograph and start creating the terrain myself, inspired by those vivid colours. It was a beautiful experience, even though I’d never actually been there.",
     src: image2,
     placeholder: ["#c9d6e8", "#4a6a94"],
-    shape: "ladnscape", //square / ladnscape / portrait -> portait
+    shape: "landscape", //square / ladnscape / portrait -> portait
   },
     {
     id: "We are the world",
