@@ -14,6 +14,30 @@ import image11 from "../assets/Obrazy/KUS06286.jpg";
 import image12 from "../assets/Obrazy/KUS06292.jpg";
 import image13 from "../assets/Obrazy/KUS06295.jpg";
 import image14 from "../assets/Obrazy/KUS06298.jpg";
+
+
+
+import image15 from "../assets/Obrazy/KUS06301.jpg";
+import image16 from "../assets/Obrazy/KUS06304.jpg";
+import image17 from "../assets/Obrazy/KUS06307.jpg";
+import image18 from "../assets/Obrazy/KUS06310.jpg";
+import image19 from "../assets/Obrazy/KUS06313.jpg";
+import image20 from "../assets/Obrazy/KUS06316.jpg";
+import image21 from "../assets/Obrazy/KUS06319.jpg";
+import image22 from "../assets/Obrazy/KUS06322.jpg";
+import image23 from "../assets/Obrazy/KUS06328.jpg";
+import image24 from "../assets/Obrazy/KUS06331.jpg";
+import image25 from "../assets/Obrazy/KUS06337.jpg";
+import image26 from "../assets/Obrazy/KUS06340.jpg";
+import image27 from "../assets/Obrazy/KUS06343.jpg";
+import image28 from "../assets/Obrazy/KUS06346.jpg";
+import image29 from "../assets/Obrazy/KUS06349.jpg";
+import image30 from "../assets/Obrazy/KUS06352.jpg";
+
+
+
+
+
 //id = w jakiej kolekcji sie znajduje obraz
 const artworksGallery: Artwork[] = [
   {
@@ -157,7 +181,7 @@ const artworksGallery: Artwork[] = [
     description: "This is the second reproduction of Vincent van Gogh’s famous painting, *The Starry Night*, from June 1889. I made the first one at the very beginning of my artistic journey. When I was offered the opportunity to hold an exhibition, I wanted the collection to be complete and to reflect what I was doing at the time. I also created it for myself, to see how much I’d improved. I was pleasantly surprised.",
     src: image13,
     placeholder: ["#c9d6e8", "#4a6a94"],
-    shape: "portrait",
+    shape: "landscape",
   },
   {
     id: "Paintings",
@@ -168,7 +192,117 @@ const artworksGallery: Artwork[] = [
     description: "This work was created as part of an academic project called Imaginary Worlds for the first year of the painting course.",
     src: image14,
     placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Paintings",
+    title: "Śnieg nad Wisłą",
+    year: 2021,
+    medium: "Acrylic on canvas",
+    size: "59.5 × 80 cm",
+    description: "This painting was based on a photograph taken by a dear friend of mine right by the Vistula River, in Grudziądz.",
+    src: image15,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Paintings",
+    title: "Nic nie wiedząc",
+    year: 2020,
+    medium: "Acrylic on canvas",
+    size: "59.5 × 80 cm",
+    description: "This is the second reproduction of my first painting, which I created in March 2020, when I had no idea what was about to happen to the world.",
+    src: image16,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Deuteranopia",
+    title: "Jaki to był kolor?",
+    year: 2025,
+    medium: "Oil on canvas",
+    size: "57.5 × 77.5 cm",
+    description: "This project was created to highlight the difficulties of people with colour blindness when it comes to the world of clothing – for example, in a clothes shop or when choosing an outfit for a particular occasion.",
+    src: image17,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Deuteranopia",
+    title: "Owoce",
+    year: 2025,
+    medium: "Oil on canvas",
+    size: "57.5 × 77.5 cm",
+    description: "This is another piece from this series. Many fruits look very similar in shape and texture if we cannot see their vivid colours, which we are so familiar with in everyday life.",
+    src: image18,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Deuteranopia",
+    title: "Zachód słońca",
+    year: 2025,
+    medium: "Oil on canvas",
+    size: "57.5 × 77.5 cm",
+    description: "In an interview related to this collection, I asked a close friend who has both deuteranopia and protanopia what he would really like to see in normal colours. He said, I’d like to see a sunset.",
+    src: image19,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Paintings",
+    title: "Kochanka",
+    year: 2019,
+    medium: "Acrylic on canvas",
+    size: "80 × 59.5 cm",
+    description: "I painted this picture in a early teenage rage when my first love was still very much thinking about another girl and I felt like a side option, an affair.",
+    src: image20,
+    placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "portrait",
+  }, 
+  {
+    id: "Paintings",
+    title: "Rzeczy, które posiadasz, zaczynają cię posiadać",
+    year: 2026,
+    medium: "Watercolour on canvas",
+    size: "80 × 59.5 cm",
+    description: "This painting was inspired by all those things that seem to make us happy, while we no longer have time for the things that truly bring us happiness in the long term, in a more meaningful way.The painting was created on a metallic background using acrylic paint, watercolour and printing ink.",
+    src: image21,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  }, 
+  {
+    id: "Paintings",
+    title: "Surrealistyczne wizje",
+    year: 2024,
+    medium: "Acrylic on canvas",
+    size: "99 × 139 cm",
+    description: "I went through a long period of being fascinated by surrealism and looked for it everywhere. The project was created as part of my academic exercises.",
+    src: image22,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Paintings",
+    title: "Widok z okna",
+    year: 2024,
+    medium: "Acrylic on canvas",
+    size: "49.5 × 69.5 cm",
+    description: "This is one of the projects I did to gain a place on a painting course. I wanted to create an interesting combination of landscape and still life.",
+    src: image23,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Paintings",
+    title: "Widok z okna",
+    year: 2024,
+    medium: "Acrylic on canvas",
+    size: "49.5 × 69.5 cm",
+    description: "This is one of the projects I did to gain a place on a painting course. I wanted to create an interesting combination of landscape and still life.",
+    src: image23,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
   },
 ];
 
