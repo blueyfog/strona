@@ -7,9 +7,6 @@ import image5 from "../assets/Obrazy/KUS06260.jpg";
 import image6 from "../assets/Obrazy/KUS06271.jpg";
 import image7 from "../assets/Obrazy/KUS06268.jpg";
 
-
-
-
 //id = w jakiej kolekcji sie znajduje obraz
 const artworksGallery: Artwork[] = [
   {
@@ -34,7 +31,7 @@ const artworksGallery: Artwork[] = [
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "landscape", //square / ladnscape / portrait -> portait
   },
-    {
+  {
     id: "We are the world",
     title: "Fioletowa burza",
     year: 2026,
@@ -77,7 +74,7 @@ const artworksGallery: Artwork[] = [
     src: image6,
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "portrait", 
-    },
+  },
   {
     id: "We are the world",
     title: "Świetlista noc",
@@ -88,6 +85,8 @@ const artworksGallery: Artwork[] = [
     src: image7,
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "portrait", 
+
+    
 ];
 
 export { artworksGallery };
