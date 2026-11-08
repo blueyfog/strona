@@ -85,6 +85,7 @@ const artworksGallery: Artwork[] = [
     src: image7,
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "portrait",
+      },   
 ];
 
 export { artworksGallery };
