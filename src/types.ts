@@ -4,7 +4,7 @@ export type Artwork = {
   //id = nazwa kolekcji powiedzmy, tak bedzie najlatwiej
   id?: string;
   title: string;
-  year?: string;
+  year?: number;
   medium?: string;
   size?: string;
   description: string;
