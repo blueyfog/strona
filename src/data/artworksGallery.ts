@@ -84,9 +84,7 @@ const artworksGallery: Artwork[] = [
     description: "I wanted to capture the shadows and the magic of midnight lights. This is the final piece in this series; I posed for the portraits so that the whole series would be about us – including me in this reflection. People often think they are stronger than the laws of nature and can do whatever they like here on Earth; yet, particularly in recent years, we realize that this is absolutely not the case. We should live in harmony with nature. After all, we are the nature; we are the world.",
     src: image7,
     placeholder: ["#c9d6e8", "#4a6a94"],
-    shape: "portrait", 
-
-    
+    shape: "portrait",
 ];
 
 export { artworksGallery };
