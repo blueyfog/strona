@@ -115,7 +115,7 @@ const artworksGallery: Artwork[] = [
   {
     id: "Paintings",
     title: "Autoportret",
-    year: "2021-02-05",
+    year: 2021,
     medium: "Acrylic on canvas",
     size: "80 × 59,5 cm",
     description: "I painted the work alone in my room, while my parents were having a noisy party in the living room and a single guest would come in from time to time to ask how I was doing.",
@@ -126,7 +126,7 @@ const artworksGallery: Artwork[] = [
   {
     id: "Paintings",
     title: "Topiona",
-    year: "2026-03",
+    year: 2026,
     medium: "Acrylic on canvas",
     size: "75 × 55 cm",
     description: "The painting was created during moments of great sadness, a sense of being drowned, and a hopeless situation.",
