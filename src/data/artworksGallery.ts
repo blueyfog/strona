@@ -7,6 +7,10 @@ import image5 from "../assets/Obrazy/KUS06260.jpg";
 import image6 from "../assets/Obrazy/KUS06271.jpg";
 import image7 from "../assets/Obrazy/KUS06268.jpg";
 
+import image8 from "../assets/Obrazy/KUS06277.jpg";
+import image9 from "../assets/Obrazy/KUS06280.jpg";
+import image10 from "../assets/Obrazy/KUS06283.jpg";
+import image11 from "../assets/Obrazy/KUS06286.jpg";
 //id = w jakiej kolekcji sie znajduje obraz
 const artworksGallery: Artwork[] = [
   {
@@ -85,7 +89,51 @@ const artworksGallery: Artwork[] = [
     src: image7,
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "portrait",
-      },   
+  },   
+  {
+    id: "Abstract",
+    title: "Eksplozja",
+    year: 2026,
+    medium: "Acrylic on canvas",
+    size: "75 × 55 cm",
+    description: "A painting created using the pouring technique with chaotic, rapid movements.",
+    src: image8,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },   
+  {
+    id: "Jesters",
+    title: "Budzik",
+    year: 2026,
+    medium: "Watercolor on canvas",
+    size: "75 × 55 cm",
+    description: "The painting was created some time after I drew a quick sketch at 7.00 am, shortly after the alarm went off. I was feeling a great wave of resignation, hate to the alarm clocks and this imposed, global routine of getting up early.",
+    src: image9,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },  
+  {
+    id: "Paintings",
+    title: "Autoportret",
+    year: 05-02-2021,
+    medium: "Acrylic on canvas",
+    size: "80 × 59,5 cm",
+    description: "I painted the work alone in my room, while my parents were having a noisy party in the living room and a single guest would come in from time to time to ask how I was doing.",
+    src: image10,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  }, 
+  {
+    id: "Paintings",
+    title: "Topiona",
+    year: 03-2026,
+    medium: "Acrylic on canvas",
+    size: "75 × 55 cm",
+    description: "The painting was created during moments of great sadness, a sense of being drowned, and a hopeless situation.",
+    src: image11,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
 ];
 
 export { artworksGallery };
