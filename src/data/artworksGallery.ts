@@ -3,7 +3,7 @@ import image1 from "../assets/Obrazy/KUS06259.jpg";
 import image2 from "../assets/Obrazy/KUS06265.jpg";
 import image3 from "../assets/Obrazy/KUS06258.jpg";
 import image4 from "../assets/Obrazy/KUS06263.jpg";
-import image5 from "../assets/Obrazy/KUS06260.jpg";
+
 
 //id = w jakiej kolekcji sie znajduje obraz
 const artworksGallery: Artwork[] = [
