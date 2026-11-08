@@ -33,43 +33,25 @@ import image30 from "../assets/Obrazy/KUS06352.jpg";
 
 
 import image31 from "../assets/Obrazy/KUS06355.jpg";
-import image31 from "../assets/Obrazy/KUS06358.jpg";
-import image31 from "../assets/Obrazy/KUS06361.jpg";
-import image31 from "../assets/Obrazy/KUS06364.jpg";
-import image31 from "../assets/Obrazy/KUS06367.jpg";
-import image31 from "../assets/Obrazy/KUS06370.jpg";
-import image31 from "../assets/Obrazy/KUS06373.jpg";
-import image31 from "../assets/Obrazy/KUS06376.jpg";
-import image31 from "../assets/Obrazy/KUS06379.jpg";
-import image31 from "../assets/Obrazy/KUS06382.jpg";
-import image31 from "../assets/Obrazy/KUS06385.jpg";
-import image31 from "../assets/Obrazy/KUS06388.jpg";
-import image31 from "../assets/Obrazy/KUS06391.jpg";
-import image31 from "../assets/Obrazy/KUS06397.jpg";
-import image31 from "../assets/Obrazy/KUS06400.jpg";
-import image31 from "../assets/Obrazy/KUS06403.jpg";
-import image31 from "../assets/Obrazy/KUS06406.jpg";
-import image31 from "../assets/Obrazy/KUS06409.jpg";
-import image31 from "../assets/Obrazy/KUS06412.jpg";
-import image31 from "../assets/Obrazy/KUS06415.jpg";
-import image31 from "../assets/Obrazy/KUS06418.jpg";
-import image31 from "../assets/Obrazy/KUS06424.jpg";
-import image31 from "../assets/Obrazy/KUS06427.jpg";
-import image31 from "../assets/Obrazy/KUS06433.jpg";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import image32 from "../assets/Obrazy/KUS06358.jpg";
+import image33 from "../assets/Obrazy/KUS06361.jpg";
+import image34 from "../assets/Obrazy/KUS06364.jpg";
+import image35 from "../assets/Obrazy/KUS06367.jpg";
+import image36 from "../assets/Obrazy/KUS06370.jpg";
+import image37 from "../assets/Obrazy/KUS06373.jpg";
+import image38 from "../assets/Obrazy/KUS06376.jpg";
+import image39 from "../assets/Obrazy/KUS06379.jpg";
+import image40 from "../assets/Obrazy/KUS06382.jpg";
+import image41 from "../assets/Obrazy/KUS06385.jpg";
+import image42 from "../assets/Obrazy/KUS06388.jpg";
+import image43 from "../assets/Obrazy/KUS06391.jpg";
+import image44 from "../assets/Obrazy/KUS06397.jpg";
+import image45 from "../assets/Obrazy/KUS06400.jpg";
+import image46 from "../assets/Obrazy/KUS06403.jpg";
+import image47 from "../assets/Obrazy/KUS06406.jpg";
+import image48 from "../assets/Obrazy/KUS06409.jpg";
+import image49 from "../assets/Obrazy/KUS06412.jpg";
+import image50 from "../assets/Obrazy/KUS06415.jpg";
 
 //id = w jakiej kolekcji sie znajduje obraz
 const artworksGallery: Artwork[] = [
@@ -402,6 +384,280 @@ const artworksGallery: Artwork[] = [
     src: image30,
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Elton",
+    year: 2021,
+    medium: "Acrylic on canvas",
+    size: "50 × 50 cm",
+    description: "This is a painting I gave to my dad for his birthday, he’s a big fan of Elton John.",
+    src: image31,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Last Christmas",
+    year: 2019,
+    medium: "Acrylic on canvas",
+    size: "50 × 50 cm",
+    description: "I was painting this picture whilst listening to ‘Last Christmas’ on repeat, sitting on the floor in my little room. It was very late by then, and I had to get up for school the next day, but I told Dad that the painting would stay forever and I would simply be tired that morning. He wished me goodnight and left.",
+    src: image32,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Słoiki",
+    year: 2024,
+    medium: "Acrylic on canvas",
+    size: "50 × 50 cm",
+    description: "The painting was created as part of academic colour theory classes in the first year of my degree, with the aim of exploring the representation of transparency and passing light. It depicts the residents of Warsaw.",
+    src: image33,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Azjatycki wiatr",
+    year: 2019,
+    medium: "Acrylic on canvas",
+    size: "50 × 50 cm",
+    description: "I painted this piece at my mum’s request because she really liked this theme.",
+    src: image34,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Goku",
+    year: 2026,
+    medium: "Acrylic on canvas",
+    size: "50 × 50 cm",
+    description: "The project was created for a gift and an exploration of the harmony of tones repeatedly used in the work",
+    src: image35,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Oko Rubika",
+    year: 2019,
+    medium: "Acrylic on canvas",
+    size: "50 × 50 cm",
+    description: "This is a very early work exploring primary colours and their composition when placed side by side.",
+    src: image36,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Roger Taylor",
+    year: 2026,
+    medium: "Watercolour on canvas",
+    size: "50 × 50 cm",
+    description: "It’s a birthday present for my mum, who’s a huge fan of this legendary drummer. The painting was created on a white acrylic base.",
+    src: image37,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Michael Jackson",
+    year: 2026,
+    medium: "Watercolour on canvas",
+    size: "50 × 50 cm",
+    description: "This is a companion piece to the Roger Taylor painting; it’s also a gift, this time for my dad, who’s a huge fan of Michael. The painting was created on a white acrylic base.",
+    src: image38,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Sun & Moon",
+    year: 2021,
+    medium: "Acrylic on canvas",
+    size: "50 × 50 cm",
+    description: "This painting was inspired by increasingly unusual ideas and the freedom of expression that was gradually emerging.",
+    src: image39,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Snowman",
+    year: 2024,
+    medium: "Acrylic on canvas",
+    size: "50 × 50 cm",
+    description: "A Christmas painting created in the spirit of love for Sia’s song ‘Snowman’, inspired by the facial expression in the artist’s album.",
+    src: image40,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Kręta droga",
+    year: 2023,
+    medium: "Acrylic on canvas",
+    size: "40 × 50 cm",
+    description: "This one was created as part of a final college project on schizophrenia and my own interpretation of how to portray it. In the end, the painting wasn’t included in the exam.",
+    src: image41,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Paintings",
+    title: "Bez nazwy",
+    year: 2021,
+    medium: "Acrylic on canvas",
+    size: "40 × 50 cm",
+    description: "The landscape was created with the idea of showing complementary colours.",
+    src: image42,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Paintings",
+    title: "Który nos dziś wybrać",
+    year: 2023,
+    medium: "Acrylic on canvas",
+    size: "40 × 30 cm",
+    description: "This work was written while reflecting on transhumanism and the growing inequality between social classes.",
+    src: image43,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Paintings",
+    title: "Min Yoongi",
+    year: 2020,
+    medium: "Oil on canvas",
+    size: "50 × 40 cm",
+    description: "One of my first works in oil paint, back when I didn’t know what turpentine or linseed oil were.",
+    src: image44,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Jesters",
+    title: "Agonia",
+    year: 2026,
+    medium: "Pastel on canvas",
+    size: "50 × 40 cm",
+    description: "The first representation of the jester theme on canvas. It was created using acrylics, pastels and permanent markers.",
+    src: image45,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Paintings",
+    title: "Wodospad",
+    year: 2019,
+    medium: "Acrylic on canvas",
+    size: "50 × 40 cm",
+    description: "My second painting ever. It shows a fictional land with a lake.",
+    src: image46,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Paintings",
+    title: "Fioletowy zachód",
+    year: 2022,
+    medium: "Acrylic on canvas",
+    size: "50 × 40 cm",
+    description: "One of my favourite subjects is landscape. This time, I’ve focused on a distinct tree in the foreground.",
+    src: image47,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Deuteranopia",
+    title: "Leki",
+    year: 2025,
+    medium: "Oil on canvas",
+    size: "30 × 40 cm",
+    description: "This work from the colour-blindness collection was inspired by research into issues relating to the consumption, dosing and identification of medicines.",
+    src: image48,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Paintings",
+    title: "Świat kobiet",
+    year: 2023,
+    medium: "Acrylic on canvas",
+    size: "50 × 40 cm",
+    description: "I wanted to highlight the difficulties faced by the women who come to them as they grow up.",
+    src: image49,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Paintings",
+    title: "Bajeczne góry",
+    year: 2025,
+    medium: "Oil on canvas",
+    size: "50 × 40 cm",
+    description: "Project created as part of the second year of painting studies and the study of representation of nature.",
+    src: image50,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Paintings",
+    title: "W oddali",
+    year: 2021,
+    medium: "Oil on canvas",
+    size: "50 × 40 cm",
+    description: "This piece was created out of a desire to explore the depth of horizons and to explore shadows.",
+    src: image50,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  {
+    id: "Paintings",
+    title: "Wdowa",
+    year: 2020,
+    medium: "Acrylic on canvas",
+    size: "40 × 30 cm",
+    description: "When I painted this work as a child, I wanted to express my vision of serious adult problems.",
+    src: image32,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
   },
 ];
 
