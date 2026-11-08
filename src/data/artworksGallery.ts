@@ -14,9 +14,6 @@ import image11 from "../assets/Obrazy/KUS06286.jpg";
 import image12 from "../assets/Obrazy/KUS06292.jpg";
 import image13 from "../assets/Obrazy/KUS06295.jpg";
 import image14 from "../assets/Obrazy/KUS06298.jpg";
-
-
-
 import image15 from "../assets/Obrazy/KUS06301.jpg";
 import image16 from "../assets/Obrazy/KUS06304.jpg";
 import image17 from "../assets/Obrazy/KUS06307.jpg";
@@ -295,14 +292,80 @@ const artworksGallery: Artwork[] = [
   },
   {
     id: "Paintings",
-    title: "Widok z okna",
+    title: "Człowiek kot",
+    year: 2025,
+    medium: "Acrylic on canvas",
+    size: "69.5 × 49.5 cm",
+    description: "I painted this picture in 40 minutes, rushing through it, though I’m not really sure why. I felt really awful when I was painting it.",
+    src: image24,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Paintings",
+    title: "Ciała",
     year: 2024,
     medium: "Acrylic on canvas",
-    size: "49.5 × 69.5 cm",
-    description: "This is one of the projects I did to gain a place on a painting course. I wanted to create an interesting combination of landscape and still life.",
-    src: image23,
+    size: "69.5 × 49.5 cm",
+    description: "This is yet another academic project that called for some reflection on the body. The result turned out to be a surreal vision.",
+    src: image25,
     placeholder: ["#c9d6e8", "#4a6a94"],
-    shape: "landscape",
+    shape: "portrait",
+  },
+  {
+    id: "Paintings",
+    title: "Cytryny",
+    year: 2019,
+    medium: "Acrylic on canvas",
+    size: "50 × 50 cm",
+    description: "This is a very early painting in my artistic journey, and it explores the representation of mountains, nature and trees.",
+    src: image26,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Wesołe miasteczko",
+    year: 2019,
+    medium: "Acrylic on canvas",
+    size: "50 × 50 cm",
+    description: "It’s a completely imaginary scene that took shape vividly in my mind one day after getting up before school. It brings back very nostalgic memories of me, all on my own in a little room, discovering painting. I was creating a huge amount of work back then, fascinated by my new hobby.",
+    src: image27,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Eris",
+    year: 2021,
+    medium: "Acrylic on canvas",
+    size: "50 × 50 cm",
+    description: "This is one of the paintings showing our cat Eris, the oldest female.",
+    src: image28,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Pierwsze próby",
+    year: 2019,
+    medium: "Acrylic on canvas",
+    size: "50 × 50 cm",
+    description: "This is the first reproduction of Vincent van Gogh’s famous painting ‘The Starry Night’, dated June 1889. It was one of my first paintings; I can’t remember why I wanted to do a reproduction that early, but it was certainly an interesting experience. The end result wasn’t important to me.",
+    src: image29,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
+  },
+  {
+    id: "Paintings",
+    title: "Zmęczona sławą",
+    year: 2020,
+    medium: "Acrylic on canvas",
+    size: "50 × 50 cm",
+    description: "This painting is one of my first attempts at posing to paint myself, not in the context of a self-portrait. ",
+    src: image30,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "square",
   },
 ];
 
