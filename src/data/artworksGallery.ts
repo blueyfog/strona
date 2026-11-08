@@ -11,6 +11,9 @@ import image8 from "../assets/Obrazy/KUS06277.jpg";
 import image9 from "../assets/Obrazy/KUS06280.jpg";
 import image10 from "../assets/Obrazy/KUS06283.jpg";
 import image11 from "../assets/Obrazy/KUS06286.jpg";
+import image12 from "../assets/Obrazy/KUS06292.jpg";
+import image13 from "../assets/Obrazy/KUS06295.jpg";
+import image14 from "../assets/Obrazy/KUS06298.jpg";
 //id = w jakiej kolekcji sie znajduje obraz
 const artworksGallery: Artwork[] = [
   {
@@ -124,13 +127,35 @@ const artworksGallery: Artwork[] = [
     shape: "portrait",
   }, 
   {
-    id: "Paintings",
+    id: "Jesters",
     title: "Topiona",
     year: 2026,
     medium: "Acrylic on canvas",
     size: "75 × 55 cm",
     description: "The painting was created during moments of great sadness, a sense of being drowned, and a hopeless situation.",
     src: image11,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Jesters",
+    title: "Zajęta",
+    year: 2026,
+    medium: "Oil on canvas",
+    size: "77.5 × 57.5 cm",
+    description: "This painting was created with the majestic landscapes in mind, the science of the place where we live, and the possibilities that people fail to see because they live in a bubble. The landscape was painted in oils and the figure in watercolours.",
+    src: image12,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Paintings",
+    title: "Ku chwale mistrza",
+    year: 2019,
+    medium: "Oil on canvas",
+    size: "80 × 59.5 cm",
+    description: "This is the second reproduction of Vincent van Gogh’s famous painting, *The Starry Night*, from June 1889. I made the first one at the very beginning of my artistic journey. When I was offered the opportunity to hold an exhibition, I wanted the collection to be complete and to reflect what I was doing at the time. I also created it for myself, to see how much I’d improved. I was pleasantly surprised.",
+    src: image13,
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "portrait",
   },
