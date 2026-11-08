@@ -2,6 +2,8 @@ import type { Artwork } from "../types";
 import image1 from "../assets/Obrazy/KUS06259.jpg";
 import image2 from "../assets/Obrazy/KUS06265.jpg"
 import image3 from "../assets/Obrazy/KUS06258.jpg"
+import image4 from "../assets/Obrazy/KUS06263.jpg"
+import image5 from "../assets/Obrazy/KUS06260.jpg" 
 
 //id = w jakiej kolekcji sie znajduje obraz
 const artworksGallery: Artwork[] = [
@@ -39,13 +41,13 @@ const artworksGallery: Artwork[] = [
     shape: "landscape",
   },
   {
-    id: "gallery-one",
-    title: "ktorys obraz",
-    year: 2023,
+    id: "We are the world",
+    title: "Jesienne pastele",
+    year: 2026,
     medium: "Oil on canvas",
-    size: "100 × 60 cm",
-    description: "jp 100%",
-    src: 
+    size: "100 × 70 cm",
+    description: "The yellow autumnal hues, the clouds in their beautiful pastel shades, and those fantastical trees stole my heart. That inspiration drove me to paint the sky using practically nothing but a palette knife. Painting those misty areas with oil paint was a new experience for me.  The scene was captured at the top of the pass in south-west Colorado, above the low-hanging clouds and mist, just before sunrise.",
+    src: image4,
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "landscape", //nie pamietam jaki ale chyba to byl landscape 
   },
