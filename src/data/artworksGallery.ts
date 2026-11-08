@@ -32,6 +32,42 @@ import image29 from "../assets/Obrazy/KUS06349.jpg";
 import image30 from "../assets/Obrazy/KUS06352.jpg";
 
 
+import image31 from "../assets/Obrazy/KUS06355.jpg";
+import image31 from "../assets/Obrazy/KUS06358.jpg";
+import image31 from "../assets/Obrazy/KUS06361.jpg";
+import image31 from "../assets/Obrazy/KUS06364.jpg";
+import image31 from "../assets/Obrazy/KUS06367.jpg";
+import image31 from "../assets/Obrazy/KUS06370.jpg";
+import image31 from "../assets/Obrazy/KUS06373.jpg";
+import image31 from "../assets/Obrazy/KUS06376.jpg";
+import image31 from "../assets/Obrazy/KUS06379.jpg";
+import image31 from "../assets/Obrazy/KUS06382.jpg";
+import image31 from "../assets/Obrazy/KUS06385.jpg";
+import image31 from "../assets/Obrazy/KUS06388.jpg";
+import image31 from "../assets/Obrazy/KUS06391.jpg";
+import image31 from "../assets/Obrazy/KUS06397.jpg";
+import image31 from "../assets/Obrazy/KUS06400.jpg";
+import image31 from "../assets/Obrazy/KUS06403.jpg";
+import image31 from "../assets/Obrazy/KUS06406.jpg";
+import image31 from "../assets/Obrazy/KUS06409.jpg";
+import image31 from "../assets/Obrazy/KUS06412.jpg";
+import image31 from "../assets/Obrazy/KUS06415.jpg";
+import image31 from "../assets/Obrazy/KUS06418.jpg";
+import image31 from "../assets/Obrazy/KUS06424.jpg";
+import image31 from "../assets/Obrazy/KUS06427.jpg";
+import image31 from "../assets/Obrazy/KUS06433.jpg";
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
