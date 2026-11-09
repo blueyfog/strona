@@ -52,6 +52,8 @@ import image47 from "../assets/Obrazy/KUS06406.jpg";
 import image48 from "../assets/Obrazy/KUS06409.jpg";
 import image49 from "../assets/Obrazy/KUS06412.jpg";
 import image50 from "../assets/Obrazy/KUS06415.jpg";
+import image51 from "../assets/Obrazy/KUS06418.jpg";
+
 
 //id = w jakiej kolekcji sie znajduje obraz
 const artworksGallery: Artwork[] = [
@@ -612,7 +614,7 @@ const artworksGallery: Artwork[] = [
     medium: "Oil on canvas",
     size: "50 × 40 cm",
     description: "This piece was created out of a desire to explore the depth of horizons and to explore shadows.",
-    src: image50,
+    src: image51,
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "landscape",
   },
