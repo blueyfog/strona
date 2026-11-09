@@ -735,7 +735,7 @@ const artworksGallery: Artwork[] = [
     shape: "portrait",
   },
   {
-    id: "Painting",
+    id: "Paintings",
     title: "Purple Rain",
     year: 2019,
     medium: "Acrylic on canvas",
@@ -757,7 +757,7 @@ const artworksGallery: Artwork[] = [
     shape: "portrait",
   },
   {
-    id: "Painting",
+    id: "Paintings",
     title: "Wzrok",
     year: 2019,
     medium: "Acrylic on canvas",
@@ -779,7 +779,7 @@ const artworksGallery: Artwork[] = [
     shape: "portrait",
   },
   {
-    id: "Painting",
+    id: "Paintings",
     title: "Piotruś Pan",
     year: 2015,
     medium: "Acrylic on canvas",
