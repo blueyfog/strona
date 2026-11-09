@@ -166,7 +166,7 @@ const artworksGallery: Artwork[] = [
     id: "Jesters",
     title: "Budzik",
     year: 2026,
-    medium: "Watercolor on canvas",
+    medium: "Watercolour on canvas",
     size: "75 × 55 cm",
     description: "The painting was created some time after I drew a quick sketch at 7.00 am, shortly after the alarm went off. I was feeling a great wave of resignation, hate to the alarm clocks and this imposed, global routine of getting up early.",
     src: image9,
