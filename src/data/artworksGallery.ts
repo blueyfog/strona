@@ -69,17 +69,17 @@ import image62 from "../assets/Obrazy/KUS06457.jpg";
 import image63 from "../assets/Obrazy/KUS06460.jpg";
 import image64 from "../assets/Obrazy/KUS06463.jpg";
 import image65 from "../assets/Obrazy/KUS06466.jpg";
-import image67 from "../assets/Obrazy/KUS06469.jpg";
-import image68 from "../assets/Obrazy/KUS06475.jpg";
-import image69 from "../assets/Obrazy/KUS06487.jpg";
-import image70 from "../assets/Obrazy/KUS06490.jpg";
-import image71 from "../assets/Obrazy/KUS06493.jpg";
-import image72 from "../assets/Obrazy/KUS06496.jpg";
-import image73 from "../assets/Obrazy/KUS06499.jpg";
-import image74 from "../assets/Obrazy/KUS06502.jpg";
-import image75 from "../assets/Obrazy/KUS06508.jpg";
-import image76 from "../assets/Obrazy/KUS06511.jpg";
-import image77 from "../assets/Obrazy/KUS06514.jpg";
+import image66 from "../assets/Obrazy/KUS06469.jpg";
+import image67 from "../assets/Obrazy/KUS06475.jpg";
+import image68 from "../assets/Obrazy/KUS06487.jpg";
+import image79 from "../assets/Obrazy/KUS06490.jpg";
+import image80 from "../assets/Obrazy/KUS06493.jpg";
+import image81 from "../assets/Obrazy/KUS06496.jpg";
+import image82 from "../assets/Obrazy/KUS06499.jpg";
+import image83 from "../assets/Obrazy/KUS06502.jpg";
+import image84 from "../assets/Obrazy/KUS06508.jpg";
+import image85 from "../assets/Obrazy/KUS06511.jpg";
+import image86 from "../assets/Obrazy/KUS06514.jpg";
 
 
 //id = w jakiej kolekcji sie znajduje obraz
