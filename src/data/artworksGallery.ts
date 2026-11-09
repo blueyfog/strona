@@ -55,6 +55,50 @@ import image50 from "../assets/Obrazy/KUS06415.jpg";
 import image51 from "../assets/Obrazy/KUS06418.jpg";
 
 
+import image52 from "../assets/Obrazy/KUS06424.jpg";
+import image53 from "../assets/Obrazy/KUS06427.jpg";
+import image54 from "../assets/Obrazy/KUS06433.jpg";
+import image55 from "../assets/Obrazy/KUS06436.jpg";
+import image56 from "../assets/Obrazy/KUS06439.jpg";
+import image57 from "../assets/Obrazy/KUS06442.jpg";
+import image58 from "../assets/Obrazy/KUS06445.jpg";
+import image59 from "../assets/Obrazy/KUS06448.jpg";
+import image60 from "../assets/Obrazy/KUS06451.jpg";
+import image61 from "../assets/Obrazy/KUS06454.jpg";
+import image62 from "../assets/Obrazy/KUS06457.jpg";
+import image63 from "../assets/Obrazy/KUS06460.jpg";
+import image64 from "../assets/Obrazy/KUS06463.jpg";
+import image65 from "../assets/Obrazy/KUS06466.jpg";
+import image67 from "../assets/Obrazy/KUS06469.jpg";
+import image68 from "../assets/Obrazy/KUS06475.jpg";
+import image69 from "../assets/Obrazy/KUS06487.jpg";
+import image70 from "../assets/Obrazy/KUS06490.jpg";
+import image71 from "../assets/Obrazy/KUS06493.jpg";
+import image72 from "../assets/Obrazy/KUS06496.jpg";
+import image73 from "../assets/Obrazy/KUS06499.jpg";
+import image74 from "../assets/Obrazy/KUS06502.jpg";
+import image75 from "../assets/Obrazy/KUS06508.jpg";
+import image76 from "../assets/Obrazy/KUS06511.jpg";
+import image77 from "../assets/Obrazy/KUS06514.jpg";
+import image78 from "../assets/Obrazy/KUS06517.jpg";
+import image79 from "../assets/Obrazy/KUS06520.jpg";
+import image80 from "../assets/Obrazy/KUS06523.jpg";
+import image81 from "../assets/Obrazy/KUS06532.jpg";
+import image82 from "../assets/Obrazy/KUS06535.jpg";
+import image83 from "../assets/Obrazy/KUS06538.jpg";
+import image84 from "../assets/Obrazy/KUS06547.jpg";
+import image85 from "../assets/Obrazy/KUS06550.jpg";
+import image86 from "../assets/Obrazy/KUS06553.jpg";
+import image87 from "../assets/Obrazy/KUS06577.jpg";
+import image88 from "../assets/Obrazy/KUS06580.jpg";
+import image89 from "../assets/Obrazy/KUS06583.jpg";
+import image90 from "../assets/Obrazy/KUS06589.jpg";
+import image91 from "../assets/Obrazy/KUS06595.jpg";
+import image92 from "../assets/Obrazy/KUS06598.jpg";
+import image93 from "../assets/Obrazy/KUS06601.jpg";
+import image94 from "../assets/Obrazy/KUS06604.jpg";
+
+
 //id = w jakiej kolekcji sie znajduje obraz
 const artworksGallery: Artwork[] = [
   {
@@ -618,21 +662,182 @@ const artworksGallery: Artwork[] = [
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "landscape",
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  {
+    id: "Paintings",
+    title: "Mama",
+    year: 2020,
+    medium: "Acrylic on canvas",
+    size: "50 × 40 cm",
+    description: "My mum really liked this version of her face and asked me to paint it. I worked on this project during the height of the first wave of the Covid-19 pandemic, while binge-watching a multi-season TV series.",
+    src: image52,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Paintings",
+    title: "Widmo",
+    year: 2020,
+    medium: "Acrylic on canvas",
+    size: "50 × 40 cm",
+    description: "This painting is actually quite special because someone very close to me really likes it. It was created without any clear concept, simply out of a desire to explore a very limited colour palette.",
+    src: image53,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Paintings",
+    title: "Wazon",
+    year: 2025,
+    medium: "Oil on canvas",
+    size: "50 × 40 cm",
+    description: "The idea was born out of the concept of portraying a woman through her characteristics, as a provocative but empty shell.",
+    src: image54,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Paintings",
+    title: "Molo",
+    year: 2020,
+    medium: "Acrylic on canvas",
+    size: "50 × 40 cm",
+    description: "The landscape was created from a photograph of a frosty scene showing a cliff in Gdynia.",
+    src: image55,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Paintings",
+    title: "Sepia",
+    year: 2021,
+    medium: "Acrylic on canvas",
+    size: "50 × 40 cm",
+    description: "One of many works relating to the practice of mountains, seas and trees.",
+    src: image56,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Paintings",
+    title: "Czas budynków",
+    year: 2019,
+    medium: "Acrylic on canvas",
+    size: "50 × 40 cm",
+    description: "Quickly created, this painting dates from the very early period of my career; for many years, it has been my favourite work.",
+    src: image57,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Paintings",
+    title: "Szuwary",
+    year: 2020,
+    medium: "Acrylic on canvas",
+    size: "50 × 40 cm",
+    description: "Quickly created, this painting dates from the very early period of my career; for many years, it has been my favourite work.",
+    src: image58,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Abstract",
+    title: "Znak",
+    year: 2019,
+    medium: "Acrylic on canvas",
+    size: "50 × 40 cm",
+    description: "A painting from the very early period of his career was quickly produced, most likely depicting some Japanese character – unfortunately, I don’t know which one.",
+    src: image59,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Abstract",
+    title: "Wazon z kwiatami",
+    year: 2019,
+    medium: "Acrylic on canvas",
+    size: "50 × 40 cm",
+    description: "My first attempts at depicting a vase of flowers with a colourful twist. A very early piece.",
+    src: image60,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Painting",
+    title: "Purple Rain",
+    year: 2019,
+    medium: "Acrylic on canvas",
+    size: "50 × 40 cm",
+    description: "The work was created during the early stages of my adolescence, at a time when I was feeling quite sad and would spend hours listening to all sorts of older songs.",
+    src: image61,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Autoportrait",
+    title: "Maruda",
+    year: 2020,
+    medium: "Acrylic on canvas",
+    size: "50 × 40 cm",
+    description: "The painting was created on the ground, during a time of turbulent changes in my character and inner conflict. It was completed fairly quickly.",
+    src: image62,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Painting",
+    title: "Wzrok",
+    year: 2019,
+    medium: "Acrylic on canvas",
+    size: "50 × 40 cm",
+    description: "The painting was created on the ground, during a time of turbulent changes in my character and inner conflict. It was completed fairly quickly.",
+    src: image63,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Abstract",
+    title: "Bez nazwy",
+    year: 2026,
+    medium: "Acrylic on canvas",
+    size: "40 × 30 cm",
+    description: "The work was created using the pouring technique, with fairly gentle body movements.",
+    src: image64,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Painting",
+    title: "Piotruś Pan",
+    year: 2015,
+    medium: "Acrylic on canvas",
+    size: "unknown",
+    description: "One of the earliest pieces I own. I created it because I was fascinated by the world of Peter Pan after reading the book.",
+    src: image65,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Painting",
+    title: "Żółte flamastry i grube katechetki",
+    year: 2015,
+    medium: "Acrylic on canvas",
+    size: "40 x 30 cm",
+    description: "After waiting for this album and listening to it over and over again, I quickly painted this piece. The lyrics spoke to me on a very personal level. It was a very nostalgic time of discovering a new musician who has stayed with me to this day, and a time of even more intensity, experimenting, without thinking about how it would turn out. Simply an obsession with painting.",
+    src: image66,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Painting",
+    title: "Żółte flamastry i grube katechetki",
+    year: 2015,
+    medium: "Acrylic on canvas",
+    size: "40 x 30 cm",
+    description: "After waiting for this album and listening to it over and over again, I quickly painted this piece. The lyrics spoke to me on a very personal level. It was a very nostalgic time of discovering a new musician who has stayed with me to this day, and a time of even more intensity, experimenting, without thinking about how it would turn out. Simply an obsession with painting.",
+    src: image67,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
 
 
 
@@ -650,17 +855,7 @@ const artworksGallery: Artwork[] = [
 
 
   
-  {
-    id: "Paintings",
-    title: "Wdowa",
-    year: 2020,
-    medium: "Acrylic on canvas",
-    size: "40 × 30 cm",
-    description: "When I painted this work as a child, I wanted to express my vision of serious adult problems.",
-    src: image32,
-    placeholder: ["#c9d6e8", "#4a6a94"],
-    shape: "portrait",
-  },
+
 ];
 
 export { artworksGallery };
