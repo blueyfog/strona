@@ -80,23 +80,6 @@ import image74 from "../assets/Obrazy/KUS06502.jpg";
 import image75 from "../assets/Obrazy/KUS06508.jpg";
 import image76 from "../assets/Obrazy/KUS06511.jpg";
 import image77 from "../assets/Obrazy/KUS06514.jpg";
-import image78 from "../assets/Obrazy/KUS06517.jpg";
-import image79 from "../assets/Obrazy/KUS06520.jpg";
-import image80 from "../assets/Obrazy/KUS06523.jpg";
-import image81 from "../assets/Obrazy/KUS06532.jpg";
-import image82 from "../assets/Obrazy/KUS06535.jpg";
-import image83 from "../assets/Obrazy/KUS06538.jpg";
-import image84 from "../assets/Obrazy/KUS06547.jpg";
-import image85 from "../assets/Obrazy/KUS06550.jpg";
-import image86 from "../assets/Obrazy/KUS06553.jpg";
-import image87 from "../assets/Obrazy/KUS06577.jpg";
-import image88 from "../assets/Obrazy/KUS06580.jpg";
-import image89 from "../assets/Obrazy/KUS06583.jpg";
-import image90 from "../assets/Obrazy/KUS06589.jpg";
-import image91 from "../assets/Obrazy/KUS06595.jpg";
-import image92 from "../assets/Obrazy/KUS06598.jpg";
-import image93 from "../assets/Obrazy/KUS06601.jpg";
-import image94 from "../assets/Obrazy/KUS06604.jpg";
 
 
 //id = w jakiej kolekcji sie znajduje obraz
@@ -829,32 +812,126 @@ const artworksGallery: Artwork[] = [
   },
   {
     id: "Painting",
-    title: "Żółte flamastry i grube katechetki",
-    year: 2015,
+    title: "水彩",
+    year: 2021,
+    medium: "Watercolour on canvas",
+    size: "40 x 30 cm",
+    description: "This is the third reproduction of the first painting I ever did, created using watercolour, my favourite technique at the time.",
+    src: image67,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Painting",
+    title: "Palacze",
+    year: 2020,
     medium: "Acrylic on canvas",
     size: "40 x 30 cm",
-    description: "After waiting for this album and listening to it over and over again, I quickly painted this piece. The lyrics spoke to me on a very personal level. It was a very nostalgic time of discovering a new musician who has stayed with me to this day, and a time of even more intensity, experimenting, without thinking about how it would turn out. Simply an obsession with painting.",
-    src: image67,
+    description: "My first love used to smoke when we first met, and I really didn’t like it. I asked him to pose for a painting and send it to me.",
+    src: image68,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Painting",
+    title: "Palacze",
+    year: 2020,
+    medium: "Acrylic on canvas",
+    size: "40 x 30 cm",
+    description: "My first love used to smoke when we first met, and I really didn’t like it. I asked him to pose for a painting and send it to me.",
+    src: image69,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Painting",
+    title: "Guma balonowa",
+    year: 2023,
+    medium: "Acrylic on canvas",
+    size: "40 x 30 cm",
+    description: "One of the works created in a rush to complete an ambitious portfolio for my current level to apply for an art school. It took 4 hours to complete.",
+    src: image70,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Painting",
+    title: "Wilk",
+    year: 2021,
+    medium: "Acrylic on canvas",
+    size: "40 x 30 cm",
+    description: "This is yet another attempt to improve the depiction of mountains, trees and the sea.",
+    src: image71,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Painting",
+    title: "Wulkan",
+    year: 2020,
+    medium: "Acrylic on canvas",
+    size: "40 x 30 cm",
+    description: "An experiment with a volcano in the background, in pastel shades.",
+    src: image72,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Painting",
+    title: "Mała podróżniczka",
+    year: 2020,
+    medium: "Acrylic on canvas",
+    size: "50 x 40 cm",
+    description: "This one was done quite shortly after we adopted our female cat, Eris.",
+    src: image73,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Painting",
+    title: "Góry z plasteliny",
+    year: 2024,
+    medium: "Oil on canvas",
+    size: "40 x 30 cm",
+    description: "Exercises in oil painting on canvas.",
+    src: image74,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "landscape",
+  },
+  {
+    id: "Painting",
+    title: "Zniknąć",
+    year: 2024,
+    medium: "Acrylic on canvas",
+    size: "50 x 40 cm",
+    description: "An early phase in the development of portraits of women.",
+    src: image75,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Painting",
+    title: "Statek",
+    year: 2022,
+    medium: "Acrylic on canvas",
+    size: "50 x 40 cm",
+    description: "This is one of the pieces featuring ships, a subject close to my heart because of my dad.",
+    src: image76,
+    placeholder: ["#c9d6e8", "#4a6a94"],
+    shape: "portrait",
+  },
+  {
+    id: "Painting",
+    title: "Oko",
+    year: 2019,
+    medium: "Acrylic on canvas",
+    size: "40 x 30 cm",
+    description: "Early experiments with the texture of paint.",
+    src: image77,
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "portrait",
   },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 
 ];
 
