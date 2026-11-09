@@ -79,7 +79,7 @@ import image72 from "../assets/Obrazy/KUS06499.jpg";
 import image73 from "../assets/Obrazy/KUS06502.jpg";
 import image74 from "../assets/Obrazy/KUS06508.jpg";
 import image75 from "../assets/Obrazy/KUS06511.jpg";
-import image76 from "../assets/Obrazy/KUS06514.jpg";
+
 
 
 //id = w jakiej kolekcji sie znajduje obraz
@@ -917,17 +917,6 @@ const artworksGallery: Artwork[] = [
     size: "50 x 40 cm",
     description: "This is one of the pieces featuring ships, a subject close to my heart because of my dad.",
     src: image76,
-    placeholder: ["#c9d6e8", "#4a6a94"],
-    shape: "portrait",
-  },
-  {
-    id: "Painting",
-    title: "Oko",
-    year: 2019,
-    medium: "Acrylic on canvas",
-    size: "40 x 30 cm",
-    description: "Early experiments with the texture of paint.",
-    src: image77,
     placeholder: ["#c9d6e8", "#4a6a94"],
     shape: "portrait",
   },
